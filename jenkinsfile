@@ -16,7 +16,7 @@ pipeline {
 
         stage("deploy") {
             steps {
-                echo "Print the Results......."
+                echo "Print the Results.........."
             }
         }
     }
