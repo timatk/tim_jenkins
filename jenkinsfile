@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    stages {
+        stage("build"){
+            steps {
+                echo 'pulling the image'
+            }
+        }
+
+        stage("test"){
+            steps {
+                echo 'kubectl apply -f .......'
+
+            }
+        }
+
+        stage("deploy") {
+            steps {
+                echo "Print the Results......."
+            }
+        }
+    }
+}
